@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+   <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title></title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <div class="container bg">
+      <a class="navbar-brand" href="index.html">
+  <img draggable="false" src="images/logo.png" alt="Logo" class="img-responsive" ></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  
+   <ul class="nav justify-content-end">
+    <li class="nav-item">
+    <a class="nav-link active" href="index.html">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="about.html">About</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="things.html">Things to do</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="index.html">Gallery</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link" href="contact.html">Contact</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link" href="book.html">Book now </a>
+  </li>
+</ul>
+</div>
+</div>
+</nav>
+<h3>About Us</h3>
+<div class="container pt-5 pb-5">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="images/i.jpg" width="350px" height="350px">
+        </div>
+        <div class="col-md-6 ">
+         <h4>Tour and Travels</h4>
+           <p>With the objective of promoting the tourism sector , Tour and travel supports tourism sector of Chitwan. This website promotes tourism places, pilgrimage sites, sightseeing, hotels and resorts, things to do, activities in Chitwan etc.
+           </p>
+        </div>
+    </div>
+  </div>
+  
+</div>
+<footer>
+  <div class="container bg7">
+    <div class="row">
+    <div class="col-md-6">
+      <div data-aos="zoom-in-right"
+      data-aos-easing="linear"
+      data-aos-duration="1500">
+     <a href="index.html">
+        <img src="images/logo.png">
+      </a>
+    </div>
+  </div>
+    <div class="col-md-6 foot">
+      <div class="col-md-6">
+      <div data-aos="zoom-in-left"
+      data-aos-easing="linear"
+      data-aos-duration="1500">
+           <span>&#xf099;</span>
+           <span>&#xf17d;</span>
+           <span>&#xf27d;</span>
+           <span>&#xf16d;</span><br><br>
+             © Copyright Nepal. All Rights Reserved
+        </div>
+    </div>
+  </div>
+  </div>
+</footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script>
+      $(window).scroll(function(){
+        $('nav').toggleClass('scrolled',$(this).scrollTop()>100);
+         })
+    </script>
+</body>
+</html>
